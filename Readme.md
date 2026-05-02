@@ -47,3 +47,8 @@ C:\Users\你的使用者名稱\AppData\Roaming\Microsoft\AddIns
 split_pdf.py 利用pypdf函式庫處理pdf檔案分割。 必須讀取listFile.csv以將pdf頁面對應到正確的戶名。 而listFile.csv則由上傳資料Excel檔， 利用uploadList2pdf所產生。 uploadList2pdf位於wrapper_function.vba當中。
 
 merge_pdf.py 利用pypdf函式庫，將所有位於pdf子目錄下的pdf檔案合併。
+
+## 相關連結
+
+### 產生代扣通知單教學
+https://youtu.be/PiPFBICcHiI
