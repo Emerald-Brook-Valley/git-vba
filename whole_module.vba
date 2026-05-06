@@ -1369,6 +1369,7 @@ Sub removeNoFeeDeduct(filePrefix As String)
 			.ColorIndex = 0 ' Automatic (Black)
 		End With
 		
+		ws.Activate
 		wb.Close SaveChanges:=True
 		' Get next file
         xlsxFile = Dir()
