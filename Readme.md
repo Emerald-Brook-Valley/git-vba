@@ -2,7 +2,8 @@
 
 ## 目錄結構與基本處理
 
-管理費處理位於"自動化"目錄之下。VBA macro 則位於Macro子目錄下的Macro.xlam。
+管理費處理位於"自動化"目錄之下。VBA macro 則~~位於Macro子目錄下的Macro.xlam。~~放在
+C:\Users\你的使用者名稱\AppData\Roaming\Microsoft\AddIns 之下。
 
 VBA code 各依其不同功能獨立於各檔案。使用`python catAll.py`將所有更新集中到`whole_module.vba`檔案當中，再一次複製取代Macro.xlam原有的Module。
 
@@ -56,3 +57,4 @@ https://youtu.be/jEjGHtR5fzo
 https://youtu.be/4L4PLj57KHc
 https://youtu.be/NxmJlCojGuA
 https://youtu.be/_Ifad1kQXnI
+https://youtu.be/00bn-fQcj_M
