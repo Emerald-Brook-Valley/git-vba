@@ -19,6 +19,7 @@ filenames = [
     'sendMail.vba',
     'res2csv.vba',
     'RunPythonInVenv.vba',
+    'mergePdfPython.vba',
     'genFinance.vba'
 ]
 # open in write mode will automatically clear file contents
