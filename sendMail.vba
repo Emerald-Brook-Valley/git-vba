@@ -92,6 +92,10 @@ Public Sub SendEmailUsingGmail(sSubject As String, sRecipients As String, sCC As
 		.CC = sCC
 		.BCC = ""
 		.Subject = sSubject
+
+		'force utf-8 encoding here
+		.BodyPart.Charset = "utf-8"
+
 		.TextBody = sDetails
 		'.AddAttachment sAttachment
 		Do While Len(pdfFile) > 0
